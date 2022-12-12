@@ -1,0 +1,268 @@
+ .bg-blue{  
+    background-color: #26269c;
+
+}
+
+
+
+ .list-group{
+   --bs-list-group-bg: transparent;
+   cursor: pointer;
+}
+
+ .list-group-item{
+   border: none
+}
+
+ .fa-brands.fa-linkedin.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-brands.fa-facebook.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-brands.fa-github.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-solid.fa-user-lock.fa-2x:hover{
+  --bs-text-opacity: 1;
+  /* color: #f1f2f3 !important; */
+  color: #f00101 !important;
+}
+
+section.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/imagen3.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  
+}
+
+.animacion-soy{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+.animacion-dev{
+  animation-duration: 7s;
+  animation-name: slidein;
+}
+
+h1.posicion1{
+  padding-top: 18%;
+  font-size: 3.5rem;
+}
+
+img.perfil{
+  margin-top: 10%;
+  margin-left: -30%;
+  width: 100%;
+  filter: brightness(70%);
+  
+}
+
+section.banner2{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(/assets/img/fondo_negro.webp);
+  width: 100%;
+  height: 75%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+body.banner2{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(/assets/img/fondo_negro.webp);
+
+}
+
+
+
+.estudios{
+
+    text-align: center;
+
+}
+
+
+
+
+.card1{
+  height: 300%;
+}
+section.acercade{
+  
+  color: #f1f2f3;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+h5{
+  color: #f1f2f3;
+  text-align: justify;
+}
+
+.margen{
+  text-align: justify;
+  color: #f1f2f3;
+}
+
+.cert{
+  filter: brightness(70%);
+}
+
+
+.foot-bg{
+  background-color: #26269c;
+  width:100%;
+  height:10%;
+  padding:0.5rem;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.login{
+  height: 76vh;
+}
+
+.form-login{
+  margin-top: 15%;
+}
+
+.email{
+  color: #f1f2f3;
+}
+
+.contra-login{
+  color: #f1f2f3;
+}
+
+.ingreso-login{
+  color: #f1f2f3;
+}
+
+.sino-tenes{
+  color: #f1f2f3;
+}
+
+.regis{
+  color: #f1f2f3;
+}
+
+.banner-login{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(/assets/img/fondo_negro.webp);
+  width: 100%;
+  height: 75%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+.admin{
+  font-size: 1.5rem;
+}
+
+.admin-perfil{
+  margin-left: -5%;
+  filter: brightness(70%);
+}
+
+.link{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+nav.vertical{
+  float: left;
+  margin-left: -1rem;
+  
+}
+
+li.vertical{
+  display: block;
+  margin:0;
+  writing-mode: vertical;
+  padding: 2rem 0;
+ 
+  
+}
+
+a, a{
+   text-decoration: none; ;
+   color: #000000; 
+}
+
+/*.alin-estudios{
+  text-align: center;;
+  margin-top: 5%;
+  
+  
+}}*/
+/* section.estudios{ 
+  background-image: url(/assets/img/fondo_negro.webp);
+  background-size: cover;
+  position: relative;
+  background-color:  #030000ec;
+}
+
+h3.seccstudios{
+ color: #f1f2f3;
+  text-align: justify;
+}*/
+
+.maquina{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 3rem;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(3) infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+@keyframes blink {
+  15% {
+    border-color: transparent;
+  }
+}
